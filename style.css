@@ -1,0 +1,100 @@
+html, body, 
+.container,
+.cbp-fbscroller,
+.cbp-fbscroller section { 
+    height: 100%;
+    padding: 0;
+    margin: 0;
+}
+ 
+/* background-attachment does the trick */
+.cbp-fbscroller section {
+    position: relative;
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+ 
+#fbsection1 {
+    background-image: url(src/1727423-نقاشی-آبرنگی-از-دختر-ایرانی-با-شال-و-موهای-بلند-در-کنار-سفره-هفت-سین.jpg);
+}
+ 
+#fbsection2 {
+    background-image: url(src/cuisin.jpg);
+}
+ 
+#fbsection3 {
+    background-image: url(src/sofreh.jpg);
+}
+ 
+#fbsection4 {
+    background-image: url(src/drinks.jpg);
+}
+ 
+#fbsection5 {
+    background-image: url(src/dessert.png);
+}
+#fbsection6{
+    background-image: url(src/food.jpg);
+}
+.overlay-text{
+    position: relative;
+   padding-bottom: 10px;
+    text-align: center;
+}
+.card-title{
+    text-align: center;
+    padding-top: 95px;
+    padding-right: 200px;
+    color: rgb(14, 13, 13);
+   
+    
+}
+.card-1{
+   text-align: center;
+    padding-top: 90px;
+    padding-right: 200px;
+    color: rgb(29, 19, 37);
+    
+}
+.card-2{
+    text-align: center;
+     padding-top: 90px;
+     padding-right: 200px;
+     color: rgb(29, 19, 19);
+ }
+ .card-3{
+    text-align: center;
+     padding-top: 90px;
+     padding-right: 200px;
+     color: rgb(6, 6, 6);
+ }
+ .card-4{
+    text-align: center;
+     padding-top: 90px;
+     padding-right: 200px;
+     color: rgb(14, 15, 15);
+ }
+
+ a{
+    text-align: center;
+    padding-top: 90px;
+    padding-right: 100px;
+    color: rgb(14, 14, 14);
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    
+ }
+ p{
+    text-align: center;
+    font-size: 20px;
+    padding-right: 200px;
+    color: rgb(12, 12, 22);
+ }
+ .email-link{
+    text-decoration: none;
+    padding-bottom: 100px;
+    text-align:center;
+ }
